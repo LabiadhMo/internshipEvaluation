@@ -8,13 +8,15 @@ import { environment } from '../environments/environment';
 import { HomeComponent } from './modules/general/home/home.component';
 import { DataComponent } from './modules/general/data/data.component';
 import { SettingsComponent } from './modules/general/settings/settings.component';
+import { NotFoundComponent } from './modules/general/not-found/not-found.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     HomeComponent,
     DataComponent,
-    SettingsComponent
+    SettingsComponent,
+    NotFoundComponent
   ],
   imports: [
     BrowserModule,
