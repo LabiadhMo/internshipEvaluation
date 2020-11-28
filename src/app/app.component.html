@@ -1,19 +1,48 @@
-<div class="app">
-  <header>
- 
-    <nav>
-      <ul>
-        <li><a routerLink="/">Home</a></li>
-        <li><a routerLink="/data">Data</a></li>
-        <li><a routerLink="/settings">settings</a></li>
+<header>
+  <nav class="navbar navbar-expand-md fixed-top navbar-dark " style="background-color: #212121;">
+    <a class="navbar-brand" routerLink="/">
+      <span class="mr-1" style="color:white">Angular</span>
+      <img src="assets/params/images/logo/angular.png" width="20" height="20" alt="angular">
+    </a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarsExampleDefault"
+      aria-controls="navbarsExampleDefault" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarsExampleDefault">
+      <ul class="navbar-nav mx-auto">
+        <li class="nav-item active">
+          <a class="nav-link" routerLink="/">
+            <i class="fas fa-home mr-1"></i>home
+          </a>
+        </li>
+        <li class="nav-item active">
+          <a class="nav-link" routerLink="/data">
+            <i class="fas fa-database mr-1"></i>Data
+          </a>
+        </li>
+        <li class="nav-item active">
+          <a class="nav-link" routerLink="/settings">
+            <i class="fas fa-archway mr-1"></i>settings
+          </a>
+        </li>
+       
       </ul>
-    </nav>
-  </header>
+    </div>
+  </nav>
+</header>
 
-  <main>
+<main>
+  <div class="container-fluid">
     <router-outlet></router-outlet>
-  </main>
+  </div>
+</main>
 
-
-
+<div class="footer">
+  <div class="container">
+    <div class="row">
+      <div class="col-12">
+        <p class="text-center">&copy; Labiadh Mohamed : Labiadhmo@gmail.com</p>
+      </div>
+    </div>
+  </div>
 </div>
