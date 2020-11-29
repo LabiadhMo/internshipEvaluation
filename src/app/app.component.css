@@ -1,0 +1,15 @@
+.container{
+    margin-top: 50px;
+}
+.row{
+    margin-top: 5px;
+}
+.spinner{
+    z-index: 99;
+    position: absolute;
+    height: 100%;
+    width: 100%;
+}
+.alert{
+    margin-top: 10px;
+}

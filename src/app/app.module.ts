@@ -9,8 +9,14 @@ import { HomeComponent } from './modules/general/home/home.component';
 import { DataComponent } from './modules/general/data/data.component';
 import { SettingsComponent } from './modules/general/settings/settings.component';
 import { NotFoundComponent } from './modules/general/not-found/not-found.component';
-import { FormsModule } from '@angular/forms';
+import { FormsModule, ReactiveFormsModule } from '@angular/forms';
 import { DragDropModule } from '@angular/cdk/drag-drop';
+import { VimeModule } from '@vime/angular';
+import { HttpClientModule, HTTP_INTERCEPTORS } from '@angular/common/http';
+import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
+import {MatProgressSpinnerModule} from '@angular/material/progress-spinner';
+import { InterceptorService } from './modules/Spinner/interceptor.service';
+
 
 @NgModule({
   declarations: [
@@ -18,16 +24,23 @@ import { DragDropModule } from '@angular/cdk/drag-drop';
     HomeComponent,
     DataComponent,
     SettingsComponent,
-    NotFoundComponent
+    NotFoundComponent,
+  
   ],
 
   imports: [
+    
+    HttpClientModule,
+    ReactiveFormsModule,
+    VimeModule,
     DragDropModule,
     BrowserModule,
+    BrowserAnimationsModule,
+    MatProgressSpinnerModule,
     AppRoutingModule,
     ServiceWorkerModule.register('ngsw-worker.js', { enabled: environment.production })
   ],
-  providers: [],
+  providers: [{provide:HTTP_INTERCEPTORS,useClass:InterceptorService,multi:true}],
   bootstrap: [AppComponent]
 })
 export class AppModule { }
