@@ -1,0 +1,123 @@
+{
+  "configVersion": 1,
+  "timestamp": 1606667673315,
+  "index": "https://labiadhmo.github.io/internshipEvaluation/index.html",
+  "assetGroups": [
+    {
+      "name": "app",
+      "installMode": "prefetch",
+      "updateMode": "prefetch",
+      "cacheQueryOptions": {
+        "ignoreVary": true
+      },
+      "urls": [
+        "https://labiadhmo.github.io/internshipEvaluation/favicon.ico",
+        "https://labiadhmo.github.io/internshipEvaluation/index.html",
+        "https://labiadhmo.github.io/internshipEvaluation/main.a5eb670215929410a626.js",
+        "https://labiadhmo.github.io/internshipEvaluation/manifest.webmanifest",
+        "https://labiadhmo.github.io/internshipEvaluation/polyfills.bf99d438b005d57b2b31.js",
+        "https://labiadhmo.github.io/internshipEvaluation/runtime.359d5ee4682f20e936e9.js",
+        "https://labiadhmo.github.io/internshipEvaluation/scripts.6829e46c25fda759c115.js",
+        "https://labiadhmo.github.io/internshipEvaluation/styles.cd6b8f5c0e39decf6faa.css"
+      ],
+      "patterns": []
+    },
+    {
+      "name": "assets",
+      "installMode": "lazy",
+      "updateMode": "prefetch",
+      "cacheQueryOptions": {
+        "ignoreVary": true
+      },
+      "urls": [
+        "https://labiadhmo.github.io/internshipEvaluation/assets/icons/icon-128x128.png",
+        "https://labiadhmo.github.io/internshipEvaluation/assets/icons/icon-144x144.png",
+        "https://labiadhmo.github.io/internshipEvaluation/assets/icons/icon-152x152.png",
+        "https://labiadhmo.github.io/internshipEvaluation/assets/icons/icon-192x192.png",
+        "https://labiadhmo.github.io/internshipEvaluation/assets/icons/icon-384x384.png",
+        "https://labiadhmo.github.io/internshipEvaluation/assets/icons/icon-512x512.png",
+        "https://labiadhmo.github.io/internshipEvaluation/assets/icons/icon-72x72.png",
+        "https://labiadhmo.github.io/internshipEvaluation/assets/icons/icon-96x96.png",
+        "https://labiadhmo.github.io/internshipEvaluation/assets/params/css/home.css",
+        "https://labiadhmo.github.io/internshipEvaluation/assets/params/css/index.css",
+        "https://labiadhmo.github.io/internshipEvaluation/assets/params/css/starter-template.css",
+        "https://labiadhmo.github.io/internshipEvaluation/assets/params/images/logo/angular.png",
+        "https://labiadhmo.github.io/internshipEvaluation/assets/params/js/index.js",
+        "https://labiadhmo.github.io/internshipEvaluation/fa-brands-400.0fea24969112a781acd2.eot",
+        "https://labiadhmo.github.io/internshipEvaluation/fa-brands-400.c967a94cfbe2b06627ff.woff2",
+        "https://labiadhmo.github.io/internshipEvaluation/fa-brands-400.dc2cbadd690e1d4b2c9c.woff",
+        "https://labiadhmo.github.io/internshipEvaluation/fa-brands-400.e33e2cf6e02cac2ccb77.svg",
+        "https://labiadhmo.github.io/internshipEvaluation/fa-brands-400.ec82f282c7f54b637098.ttf",
+        "https://labiadhmo.github.io/internshipEvaluation/fa-regular-400.06b9d19ced8d17f3d5cb.svg",
+        "https://labiadhmo.github.io/internshipEvaluation/fa-regular-400.08f9891a6f44d9546678.eot",
+        "https://labiadhmo.github.io/internshipEvaluation/fa-regular-400.1008b5226941c24f4468.woff2",
+        "https://labiadhmo.github.io/internshipEvaluation/fa-regular-400.1069ea55beaa01060302.woff",
+        "https://labiadhmo.github.io/internshipEvaluation/fa-regular-400.1495f578452eb676f730.ttf",
+        "https://labiadhmo.github.io/internshipEvaluation/fa-solid-900.10ecefc282f2761808bf.ttf",
+        "https://labiadhmo.github.io/internshipEvaluation/fa-solid-900.371dbce0dd46bd4d2033.svg",
+        "https://labiadhmo.github.io/internshipEvaluation/fa-solid-900.3a24a60e7f9c6574864a.eot",
+        "https://labiadhmo.github.io/internshipEvaluation/fa-solid-900.3ceb50e7bcafb577367c.woff2",
+        "https://labiadhmo.github.io/internshipEvaluation/fa-solid-900.46fdbd2d897f8824e63c.woff"
+      ],
+      "patterns": []
+    }
+  ],
+  "dataGroups": [],
+  "hashTable": {
+    "https://labiadhmo.github.io/internshipEvaluation/assets/icons/icon-128x128.png": "dae3b6ed49bdaf4327b92531d4b5b4a5d30c7532",
+    "https://labiadhmo.github.io/internshipEvaluation/assets/icons/icon-144x144.png": "b0bd89982e08f9bd2b642928f5391915b74799a7",
+    "https://labiadhmo.github.io/internshipEvaluation/assets/icons/icon-152x152.png": "7479a9477815dfd9668d60f8b3b2fba709b91310",
+    "https://labiadhmo.github.io/internshipEvaluation/assets/icons/icon-192x192.png": "1abd80d431a237a853ce38147d8c63752f10933b",
+    "https://labiadhmo.github.io/internshipEvaluation/assets/icons/icon-384x384.png": "329749cd6393768d3131ed6304c136b1ca05f2fd",
+    "https://labiadhmo.github.io/internshipEvaluation/assets/icons/icon-512x512.png": "559d9c4318b45a1f2b10596bbb4c960fe521dbcc",
+    "https://labiadhmo.github.io/internshipEvaluation/assets/icons/icon-72x72.png": "c457e56089a36952cd67156f9996bc4ce54a5ed9",
+    "https://labiadhmo.github.io/internshipEvaluation/assets/icons/icon-96x96.png": "3914125a4b445bf111c5627875fc190f560daa41",
+    "https://labiadhmo.github.io/internshipEvaluation/assets/params/css/home.css": "1048bc950bd0d808f7bc864c72e6cd671984da39",
+    "https://labiadhmo.github.io/internshipEvaluation/assets/params/css/index.css": "e9a5121d11101debcc7252056eaaf9e8c8b685a3",
+    "https://labiadhmo.github.io/internshipEvaluation/assets/params/css/starter-template.css": "11d4e8d1bfcaaef6352015e892e8aa876f751085",
+    "https://labiadhmo.github.io/internshipEvaluation/assets/params/images/logo/angular.png": "980e3536afedb38358a092359b28efa887a45062",
+    "https://labiadhmo.github.io/internshipEvaluation/assets/params/js/index.js": "70f8ca6ba18ba400f0e5bab74c5f5b2e4310d26e",
+    "https://labiadhmo.github.io/internshipEvaluation/fa-brands-400.0fea24969112a781acd2.eot": "c719f4375679ee58e156434f9ba9727be669cf07",
+    "https://labiadhmo.github.io/internshipEvaluation/fa-brands-400.c967a94cfbe2b06627ff.woff2": "f726c4275bb494a045fde059175f072de06c01df",
+    "https://labiadhmo.github.io/internshipEvaluation/fa-brands-400.dc2cbadd690e1d4b2c9c.woff": "a42ac4a94f4e0e9333cdb1b2fb6c13c0ae690ff2",
+    "https://labiadhmo.github.io/internshipEvaluation/fa-brands-400.e33e2cf6e02cac2ccb77.svg": "69a0ff79a9d93a451e9fa90bd79ae7008d2a9da5",
+    "https://labiadhmo.github.io/internshipEvaluation/fa-brands-400.ec82f282c7f54b637098.ttf": "9b49c6c5b0cbdef158ae31b2a4e4814555408389",
+    "https://labiadhmo.github.io/internshipEvaluation/fa-regular-400.06b9d19ced8d17f3d5cb.svg": "c41a688158d577e3a2738137992d49b05b17ab8f",
+    "https://labiadhmo.github.io/internshipEvaluation/fa-regular-400.08f9891a6f44d9546678.eot": "2baa9a8aa68f1d2d4712b3c7205f9105aaf21879",
+    "https://labiadhmo.github.io/internshipEvaluation/fa-regular-400.1008b5226941c24f4468.woff2": "fb9648469530a05fa9aac80e47d4d6960472a242",
+    "https://labiadhmo.github.io/internshipEvaluation/fa-regular-400.1069ea55beaa01060302.woff": "26afc29d39ab9fac6d0b607be7e76db093ff7c3a",
+    "https://labiadhmo.github.io/internshipEvaluation/fa-regular-400.1495f578452eb676f730.ttf": "d64e58981a419de52bac110c979887d34e366135",
+    "https://labiadhmo.github.io/internshipEvaluation/fa-solid-900.10ecefc282f2761808bf.ttf": "d537bf4cc7273ddb3fd754d53f2b241aeafaefe7",
+    "https://labiadhmo.github.io/internshipEvaluation/fa-solid-900.371dbce0dd46bd4d2033.svg": "36de6a298660ed3feaab37900f7b28c3e981d80e",
+    "https://labiadhmo.github.io/internshipEvaluation/fa-solid-900.3a24a60e7f9c6574864a.eot": "c39b89f7fa7b66931ab02a54002db5ffcbff206c",
+    "https://labiadhmo.github.io/internshipEvaluation/fa-solid-900.3ceb50e7bcafb577367c.woff2": "9b592048b9062b00f0b2dd782d70a95b7dc69b83",
+    "https://labiadhmo.github.io/internshipEvaluation/fa-solid-900.46fdbd2d897f8824e63c.woff": "3b86a0ce15d8d534b65e98560e321a933d310688",
+    "https://labiadhmo.github.io/internshipEvaluation/favicon.ico": "22f6a4a3bcaafafb0254e0f2fa4ceb89e505e8b2",
+    "https://labiadhmo.github.io/internshipEvaluation/index.html": "5cec21d30931c7ca66986917cc7533f27042a371",
+    "https://labiadhmo.github.io/internshipEvaluation/main.a5eb670215929410a626.js": "5b50b847552f2827395699cff054bd27d4a3d26a",
+    "https://labiadhmo.github.io/internshipEvaluation/manifest.webmanifest": "c49e6c62642707271796c25585f7293653dc4449",
+    "https://labiadhmo.github.io/internshipEvaluation/polyfills.bf99d438b005d57b2b31.js": "763cd3b34dfa4600ebb9d9588ec7116988e98920",
+    "https://labiadhmo.github.io/internshipEvaluation/runtime.359d5ee4682f20e936e9.js": "a9aafcf49f49145093fc831efd9b8e2f6c71bb9c",
+    "https://labiadhmo.github.io/internshipEvaluation/scripts.6829e46c25fda759c115.js": "e75ab28cbd001777cb66961428471778b826b76b",
+    "https://labiadhmo.github.io/internshipEvaluation/styles.cd6b8f5c0e39decf6faa.css": "61218f80ae4869ce6b4dd1a6fb63e00ede6f0c06"
+  },
+  "navigationUrls": [
+    {
+      "positive": true,
+      "regex": "^\\/.*$"
+    },
+    {
+      "positive": false,
+      "regex": "^\\/(?:.+\\/)?[^/]*\\.[^/]*$"
+    },
+    {
+      "positive": false,
+      "regex": "^\\/(?:.+\\/)?[^/]*__[^/]*$"
+    },
+    {
+      "positive": false,
+      "regex": "^\\/(?:.+\\/)?[^/]*__[^/]*\\/.*$"
+    }
+  ],
+  "navigationRequestStrategy": "performance"
+}
