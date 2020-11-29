@@ -4,10 +4,11 @@ import {HttpClient} from '@angular/common/http'
 @Injectable({
   providedIn: 'root'
 })
+
+// firebase service
 export class DataServiceService {
 
   constructor(private http : HttpClient) { }
-
   getPosts(){
     return this.http.get('https://angular-app-93af9.firebaseio.com/savedUrls.json')
     

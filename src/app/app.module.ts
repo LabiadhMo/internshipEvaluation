@@ -11,11 +11,11 @@ import { SettingsComponent } from './modules/general/settings/settings.component
 import { NotFoundComponent } from './modules/general/not-found/not-found.component';
 import { FormsModule, ReactiveFormsModule } from '@angular/forms';
 import { DragDropModule } from '@angular/cdk/drag-drop';
-import { VimeModule } from '@vime/angular';
 import { HttpClientModule, HTTP_INTERCEPTORS } from '@angular/common/http';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import {MatProgressSpinnerModule} from '@angular/material/progress-spinner';
 import { InterceptorService } from './modules/Spinner/interceptor.service';
+import { WebcamModule } from 'ngx-webcam';
 
 
 @NgModule({
@@ -29,10 +29,9 @@ import { InterceptorService } from './modules/Spinner/interceptor.service';
   ],
 
   imports: [
-    
+    WebcamModule,
     HttpClientModule,
     ReactiveFormsModule,
-    VimeModule,
     DragDropModule,
     BrowserModule,
     BrowserAnimationsModule,

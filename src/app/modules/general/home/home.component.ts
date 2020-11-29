@@ -11,42 +11,42 @@ import { Router, ActivatedRoute, ParamMap } from '@angular/router';
 })
 export class HomeComponent implements OnInit {
 
-  name = environment.application.name;
-  angular = environment.application.angular;
-  bootstrap = environment.application.bootstrap;
-  fontawesome = environment.application.fontawesome;
+  state = '';     // current state of draggable 
+  position = '';   // position of draggable
+
+   popup=false;
 
   constructor( private router: Router) { }
 
   ngOnInit() :void {
   }
-  state = '';
-  position = '';
-   startpoint=0;
-   endpoint=0;
- 
+  
+
+
+   // when the drag event started
   dragStarted(event: CdkDragStart) {
     this.state = 'dragStarted';
-    this.startpoint=event.source.getFreeDragPosition().y;
   }
-  popup=false;
+
+  // when drag event finished
   dragEnded(event: CdkDragEnd) {
     this.state = 'dragEnded';
-    this.endpoint=event.source.getFreeDragPosition().y;
-    console.log(event.distance.y);
-    if (event.distance.y>30)
-    this.popup=true;
+    if (event.distance.y>30) // if drag is enough 
+    this.popup=true; //pop up
     if (this.state== 'dragEnded'){
-      this.state='';
+      this.state='';  // reset state
     event.source.element.nativeElement.style.transform = 'none' // visually reset element to its origin
     const source: any = event.source
     source._passiveTransform = { x: 0, y: 0 } }
   }
- 
+
+  // while drag event
   dragMoved(event: CdkDragMove) {
     
     this.position = `> Position X: ${event.pointerPosition.x} - Y: ${event.pointerPosition.y}`;
   }
+
+  // redirecte to /data after closing pop up
   nextScreen(){
     this.popup=false;
     this.router.navigate(['/data']);
